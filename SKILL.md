@@ -1,6 +1,9 @@
 ---
 name: xuexitong-course-completion
 description: Complete a user's Xuexitong safety or other course by auditing task points, watching required videos to the platform's completion threshold, answering embedded checks and chapter quizzes, submitting them directly, and verifying the final task count. Use only for an explicitly requested Xuexitong course-completion task.
+metadata:
+  platform: Windows
+  category: education
 ---
 
 # Xuexitong Course Completion
