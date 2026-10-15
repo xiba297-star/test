@@ -22,7 +22,7 @@ Use the computer-use skill to operate the already logged-in Xuexitong desktop or
 1. Open the course outline and record the visible completion state.
 2. Audit the entire outline, including 导论, every numbered chapter, 拓展/资源 items, 阅读, and 调查问卷. A green check means complete; an orange/yellow badge means one or more task points remain. Do not infer completion from a previously visited page.
 3. For each incomplete item:
-   - Open it and wait for the content to load. Skip items that already show a green check or an in-page `任务点已完成` state; do not replay completed videos or retake completed quizzes.
+   - Use the course outline's right-side green check mark as the primary completion signal. If a row has that check, skip it immediately; do not replay completed videos or retake completed quizzes. Only open rows with an orange/yellow badge or no check, then verify the in-page state.
    - Play the required video. Respect the page's stated completion rule, usually at least 90% watched. Do not skip ahead unless the platform itself permits it and the task visibly becomes complete. Clicking Play is not evidence of completion; verify both the in-page task state and the outline badge/counter.
    - When an embedded 判断题 or other interaction pauses playback, read the visible statement/options, select the answer supported by the lesson content, submit it, verify the green success feedback, and continue playback.
    - Open 章节测验, complete all questions, submit directly, and verify the result page or 已完成 state. For multi-select questions, select every supported option and avoid unsupported extras.
@@ -37,6 +37,8 @@ Use the computer-use skill to operate the already logged-in Xuexitong desktop or
 - Treat element indexes, coordinates, and screenshot IDs as valid only for the observation that produced them. After every click, scroll, navigation, or modal change, capture a fresh state before choosing the next action.
 - Prefer the outline's current list item to navigate between lessons. When the outline is virtualized or labels are missing, use the current screenshot to click the visible row, then refresh accessibility state; never guess an index from an earlier page.
 - For long videos, leave playback running and inspect about every five minutes. If the player reports a real duration, do not claim completion until the stated threshold and the green task state are both visible.
+- A completed video may automatically switch the lesson to its 章节测验 tab; treat that navigation as a new state, re-observe, and continue with the quiz rather than clicking the old video controls.
+- If embedded quiz text is garbled in accessibility output, use the fresh screenshot and lesson context to read it. Do not submit an answer whose wording or options remain genuinely ambiguous.
 - If Computer Use reports that the user stopped control, including a physical `Esc`, stop all further UI input in that turn. Preserve the current page and report the interruption; resume only in a later turn.
 
 ## Monitoring and communication
